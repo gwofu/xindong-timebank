@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "announcement",
+  "info": {
+    "name": "announcement",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "default": "",
+      "type": "text",
+      "required": true
+    }
+  }
+}
