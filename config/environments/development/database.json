@@ -5,11 +5,7 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "cluster0-shard-00-00-dppuy.mongodb.net",
-        "port": 27017,
-        "database": "adtalem-strapi",
-        "username": "admin",
-        "password": "admin"
+        "uri": "mongodb://admin:admin@cluster0-shard-00-00-dppuy.mongodb.net:27017,cluster0-shard-00-01-dppuy.mongodb.net:27017,cluster0-shard-00-02-dppuy.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"
       },
       "options": {
         "authenticationDatabase": "admin",
